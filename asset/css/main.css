@@ -1,0 +1,89 @@
+body {
+    background-color: black;
+}
+
+#nav {
+    width: 1300px;
+    height: 75px;
+    position: fixed;
+    top: 0;
+    display: block;
+}
+
+#see {
+    width: 1300px;
+    height: 80px;
+    position: fixed;
+    top: 0;
+}
+
+#SIGN {
+    width: 1300px;
+    height: 700px;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: none;
+}
+
+#INSIGN {
+    width: 600px;
+    height: 368px;
+    background-image: url(../img/登入.png);
+    background-size: 100%;
+    margin: auto;
+    position: absolute;
+    top: 120px;
+    left: 350px;
+}
+
+#froma {
+    width: 600px;
+    height: 308px;
+    position: absolute;
+    top: 45px;
+    color: greenyellow;
+    text-align: center;
+}
+
+.ftext {
+    font-size: 15px;
+    font-family: 標楷體;
+}
+
+.ini {
+    background-color: transparent;
+    width: 300px;
+    height: 18px;
+    border: greenyellow 2px double;
+    color: greenyellow;
+    font-size: 15px;
+}
+
+.inb {
+    width: 360px;
+    height: 38px;
+    margin-left: 120px;
+    margin-right: 120px;
+    position: absolute;
+    top: 230px;
+}
+
+.inbb {
+    background-color: greenyellow;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    width: 80px;
+    height: 35px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#fromb {
+    width: 600px;
+    height: 308px;
+    position: absolute;
+    top: 45px;
+    color: greenyellow;
+    text-align: center;
+    display: none;
+}

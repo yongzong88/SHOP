@@ -1,0 +1,73 @@
+#main {
+    width: 1300px;
+    height: 2200px;
+    margin: auto;
+    background-image: url(../img/背景.jpg);
+    background-size: 100%;
+}
+
+#people {
+    width: 280px;
+    /*margin: 100px 510px 0px 510px;*/
+    position: absolute;
+    top: 175px;
+    margin-left: 510px;
+}
+
+#hotp {
+    width: 1300px;
+    position: absolute;
+    top: 900px;
+}
+
+#no1t {
+    position: absolute;
+    top: 830px;
+    left: 645px;
+    color: white;
+    font-family: DejaVu Sans Mono, monospace;
+}
+
+#no2t {
+    position: absolute;
+    top: 1050px;
+    left: 255px;
+    color: white;
+}
+
+#no3t {
+    position: absolute;
+    top: 1050px;
+    left: 1035px;
+    color: white;
+}
+
+.nop {
+    width: 350px;
+}
+
+#no1p {
+    position: absolute;
+    top: 950px;
+    left: 490px;
+}
+
+#no2p {
+    position: absolute;
+    top: 1180px;
+    left: 100px;
+}
+
+#no3p {
+    position: absolute;
+    top: 1180px;
+    left: 890px;
+}
+
+#Carousel {
+    position: absolute;
+    top: 1700px;
+    left: 250px;
+    border: white solid 3px;
+    border-radius: 10px;
+}

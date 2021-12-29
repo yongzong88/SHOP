@@ -1,0 +1,26 @@
+#main {
+    width: 1300px;
+    height: 800px;
+    margin: auto;
+    background-image: url(../img/背景.jpg);
+    background-size: 100%;
+}
+
+table {
+    color: white;
+    width: 1200px;
+    margin-left: 50px;
+    margin-right: 50px;
+    position: absolute;
+    top: 100px;
+}
+
+td {
+    width: 25%;
+}
+
+.p {
+    width: 250px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
