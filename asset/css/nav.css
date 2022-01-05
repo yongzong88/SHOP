@@ -1,5 +1,5 @@
 #navv {
-    width: 1300px;
+    width: 1290px;
     height: 75px;
     border-bottom: 2px black solid;
     padding: 5px;
@@ -25,7 +25,8 @@ a {
 
 #SIGNP {
     float: right;
-    width: 75px;
+    width: 70px;
+    margin-bottom: 5px;
     margin-left: 25px;
 }
 
