@@ -6,11 +6,11 @@
     background-size: 100%;
     top: 0;
 }
-*{
+
+* {
     font-size: 30px;
     letter-spacing: 5px;
     font-family: DejaVu Sans Mono, monospace;
-
 }
 
 #mtable {
@@ -21,51 +21,41 @@
     left: 25px;
     color: white;
 }
-tr{
-    height: 60px;
 
+tr {
+    height: 60px;
 }
+
 .a {
     width: 500px;
     font-size: 35px;
-    text-shadow: 
-        0 0 10px #4cff5b,
-        0 0 20px #4cff5b,
-        0 0 30px #4cff5b;
+    text-shadow: 0 0 10px #4cff5b, 0 0 20px #4cff5b, 0 0 30px #4cff5b;
     height: 60px;
 }
 
 .b {
-    width: 50px;height: 60px;
+    width: 50px;
+    height: 60px;
     text-align: center;
     font-size: 35px;
-    text-shadow: 
-        0 0 10px #4cff5b,
-        0 0 20px #4cff5b,
-        0 0 30px #4cff5b;
+    text-shadow: 0 0 10px #4cff5b, 0 0 20px #4cff5b, 0 0 30px #4cff5b;
 }
 
-
 .e {
-    width: 130px;height: 60px;
+    width: 130px;
+    height: 60px;
     text-align: center;
     font-size: 35px;
-    text-shadow: 
-        0 0 10px #4cff5b,
-        0 0 20px #4cff5b,
-        0 0 30px #4cff5b;
+    text-shadow: 0 0 10px #4cff5b, 0 0 20px #4cff5b, 0 0 30px #4cff5b;
 }
 
 .f {
-    width: 130px;height: 60px;
+    width: 130px;
+    height: 60px;
     text-align: center;
     font-size: 35px;
-    text-shadow: 
-        0 0 10px #4cff5b,
-        0 0 20px #4cff5b,
-        0 0 30px #4cff5b;
+    text-shadow: 0 0 10px #4cff5b, 0 0 20px #4cff5b, 0 0 30px #4cff5b;
 }
-
 
 #ttp {
     width: 50px;
@@ -77,63 +67,62 @@ tr{
     left: 175px;
     width: 1200px;
     color: white;
-
 }
-#pay_btn{
+
+#pay_btn {
     position: relative;
-    top: 50px;left: 400px;
+    top: 50px;
+    left: 400px;
     background-color: chartreuse;
-    width: 150px;height: 60px;
+    width: 150px;
+    height: 60px;
     border-radius: 8px;
     font-weight: bold;
     color: white;
-
 }
-#pay_btn:hover{
+
+#pay_btn:hover {
     transition: all .3s ease;
     color: yellowgreen;
     background-color: white;
 }
-#pay_btn:hover::before{
+
+#pay_btn:hover::before {
     width: 100%;
 }
-.pay_t{
+
+.pay_t {
     font-size: 35px;
     color: white;
-    text-shadow: 
-        0 0 10px #4cff5b,
-        0 0 20px #4cff5b,
-        0 0 30px #4cff5b;
+    text-shadow: 0 0 10px #4cff5b, 0 0 20px #4cff5b, 0 0 30px #4cff5b;
     height: 80px;
 }
 
-#title h1{
-    color:white;
+#title h1 {
+    color: white;
     position: relative;
-    top: 105px;left: 100px;
+    top: 105px;
+    left: 100px;
     font-size: 80px;
     letter-spacing: 10px;
-
-    text-shadow: 
-        0 0 10px #4cff5b,
-        0 0 20px #4cff5b;
-
+    text-shadow: 0 0 10px #4cff5b, 0 0 20px #4cff5b;
     width: 4em;
     border-right: .05em solid;
     overflow: hidden;
     white-space: nowrap;
-    animation: typing 2s steps(3),
-    caret 1s steps(1) infinite,
-    flashing 1s linear infinite alternate;
+    animation: typing 2s steps(3), caret 1s steps(1) infinite, flashing 1s linear infinite alternate;
 }
 
-#ttpr{
-    text-shadow: 
-        0 0 10px #4cff5b,
-        0 0 20px #4cff5b,
-        0 0 30px #4cff5b;
-
+#ttpr {
+    text-shadow: 0 0 10px #4cff5b, 0 0 20px #4cff5b, 0 0 30px #4cff5b;
 }
-.pay_h{
+
+.pay_h {
     color: chartreuse;
+}
+
+#buyb {
+    background-color: yellowgreen;
+    color: black;
+    border-radius: 10px;
 }

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../asset/img/icon.png" type="image/x-icon" />
+    <title>良心器業</title>
+    <style>
+        @import url(../asset/css/main.css);
+        @import url(../asset/css/購物車.css);
+        @import url(../asset/css/nav.css);
+        @import url(../asset/css/animation.css);
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <div id="title">
+            <h1>結帳</h1>
+        </div>
+        <table id="mtable">
+
+            <tr>
+                <td colspan="6">
+                    <span>總金額&emsp;&emsp;</span>
+                    <span id="ttpr">0</span>
+                </td>
+            </tr>
+        </table>
+        <form id="pay" action="#" method="post">
+            <table>
+                <tr>
+                    <td class="pay_t">付款方式&emsp;</td>
+                    <td class="pay_rdo"><input type="radio" name="paya">ATM轉帳
+                        <input type="radio" name="paya">信用卡
+                        <input type="radio" name="paya">貨到付款
+                        <input type="radio" name="paya">WebATM
+                    </td>
+                </tr>
+                <tr class="pay_h">
+                    <td class="pay_t">請選擇手術醫院&emsp;</td>
+                    <td><select name="醫院">
+                        <option value="no1" class="pay_h">醫院一</option>
+                        <option value="no2" class="pay_h">醫院二</option>
+                        <option value="no3" class="pay_h">醫院三</option>
+                        <option value="no4" class="pay_h">醫院四</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="pay_t">請選擇時間&emsp;</td>
+                    <td><input type="date" name="時間" class="pay_h">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" value="送出" id="pay_btn"></td>
+                </tr>
+            </table>
+
+
+
+        </form>
+
+
+        <iframe src="../page/nav.html" id="N" frameborder="0" scrolling="no"></iframe>
+
+
+    </div>
+</body>
+
+</html>

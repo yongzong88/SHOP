@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../asset/img/icon.png" type="image/x-icon" />
+    <title>良心器業</title>
+    <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+    <style>
+        @import url("style.css");
+        @import url("../asset/css/back.css");
+        @import url("../asset/css/main.css");
+        @import url("../asset/css/nav.css");
+    </style>
+    <script data-require="jquery@3.1.1" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="plus_minus.js"></script>
+    <script>
+        function ooxx() {
+            alert('刪除成功!');
+        }
+
+        function ooxx2() {
+            alert('新增成功!');
+        }
+    </script>
+</head>
+
+<body>
+    <div id="main">
+        <div id="backk">
+            <center>
+                <header>
+                    <h1 align="center">系統後台介面</h1>
+                    <a href="newproduct.jsp"> <button>新增資料</button></a>
+                    <a href="logout.jsp"> <button>登出</button></a>
+                </header>
+                <div><br><br><br></div>
+
+                <div>
+                    <table border=1 cellpadding=20>
+                        <tr align="center">
+                            <td width="20%">商品編碼</td>
+                            <td width="20%">部位名稱</td>
+                            <td width="20%">價格</td>
+                            <td width="30%">庫存</td>
+                            <td width="20%">功能</td>
+                        </tr>
+                    </table>
+
+                    <div><br><br><br><br></div>
+                </div>
+            </center>
+        </div>
+        <iframe src="../page/nav.html" id="N" frameborder="0" scrolling="no"></iframe>
+    </div>
+</body>
+
+</html>

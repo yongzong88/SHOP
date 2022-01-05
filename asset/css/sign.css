@@ -5,3 +5,19 @@
     background-image: url(../img/背景.jpg);
     background-size: 100%;
 }
+
+#login {
+    width: 500px;
+    height: 200px;
+    border: white 3px solid;
+    text-align: center;
+    position: relative;
+    left: 400px;
+    top: 150px;
+    padding-top: 50px;
+    border-radius: 10px;
+}
+
+.logint {
+    color: greenyellow;
+}
