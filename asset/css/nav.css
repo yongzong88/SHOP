@@ -68,3 +68,30 @@ a {
     margin-left: 25px;
     text-shadow: 0 0 10px #4cff5b, 0 0 20px #4cff5b, 0 0 50px #4cff5b, 0 0 100px #4cff5b, 0 0 200px #4cff5b;
 }
+
+#T {
+    float: right;
+    height: 45px;
+    width: 150px;
+    margin-top: 10px;
+    font-size: 25px;
+    line-height: 50px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    margin-left: 25px;
+    text-shadow: 0 0 10px #4cff5b, 0 0 20px #4cff5b, 0 0 50px #4cff5b, 0 0 100px #4cff5b, 0 0 200px #4cff5b;
+}
+
+#B {
+    float: right;
+    height: 50px;
+    margin-top: 10px;
+    font-size: 25px;
+    line-height: 50px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    margin-left: 5px;
+    text-shadow: 0 0 10px #4cff5b, 0 0 20px #4cff5b, 0 0 50px #4cff5b, 0 0 100px #4cff5b, 0 0 200px #4cff5b;
+}

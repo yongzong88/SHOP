@@ -4,7 +4,7 @@
 
 #main {
     width: 1300px;
-    height: 1000px;
+    height: 1500px;
     margin: auto;
     background-image: url(../img/背景.jpg);
     background-size: 100%;
@@ -17,9 +17,9 @@
 .profilebox {
     column-count: 2;
     -webkit-column-break-before: in-right;
-    position: absolute;
+    position: relative;
     top: 150px;
-    left: 250px;
+    left: 100px;
     color: white;
     text-shadow: 0 0 10px #4cff5b, 0 0 20px #4cff5b, 0 0 50px #4cff5b, 0 0 100px #4cff5b, 0 0 200px #4cff5b;
     animation: flashing 1s linear infinite alternate;
@@ -279,4 +279,85 @@
         left: 200px;
         top: 50px;
     }
+}
+
+.goods {
+    position: relative;
+    top: 350px;
+    left: 100px;
+}
+
+.button {
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+    line-height: 40px;
+    background-color: transparent;
+    position: relative;
+    transition: all .3s linear;
+    font-size: 25px;
+    text-decoration: transparent;
+    color: white;
+    text-shadow: 0 0 10px #4cff5b, 0 0 20px #4cff5b, 0 0 50px #4cff5b, 0 0 100px #4cff5b, 0 0 200px #4cff5b;
+    animation: flashing 1s linear infinite alternate;
+}
+
+.button::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: block;
+    box-sizing: border-box;
+    border-top: 3px solid white;
+    text-shadow: 0 0 10px #4cff5b, 0 0 20px #4cff5b, 0 0 50px #4cff5b, 0 0 100px #4cff5b, 0 0 200px #4cff5b;
+    border-left: 3px solid rgb(223, 231, 223);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .3s linear;
+}
+
+.button::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: block;
+    box-sizing: border-box;
+    border-bottom: 3px solid white;
+    color: white;
+    text-shadow: 0 0 10px #4cff5b, 0 0 20px #4cff5b, 0 0 50px #4cff5b, 0 0 100px #4cff5b, 0 0 200px #4cff5b;
+    border-right: 3px solid white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transition: all .3s linear;
+}
+
+.button:hover::before,
+.button:hover::after {
+    width: 100%;
+    height: 100%;
+}
+
+.ffform {
+    font-size: 30px;
+    color: white;
+    text-shadow: 0 0 10px #4cff5b, 0 0 20px #4cff5b, 0 0 50px #4cff5b, 0 0 100px #4cff5b, 0 0 200px #4cff5b;
+    animation: flashing 1s linear infinite alternate;
+    text-decoration: transparent;
+    text-align: center;
+}
+
+.people {
+    color: white;
+    text-shadow: 0 0 10px #4cff5b, 0 0 20px #4cff5b, 0 0 50px #4cff5b, 0 0 100px #4cff5b, 0 0 200px #4cff5b;
+    animation: flashing 1s linear infinite alternate;
+    text-decoration: transparent;
+}
+
+hr {
+    width: 600px;
+    margin-left: 0;
 }
