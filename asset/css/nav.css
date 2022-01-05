@@ -1,9 +1,10 @@
 #navv {
-    width: 1200;
+    width: 1300px;
     height: 75px;
     border-bottom: 2px black solid;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 110;
 }
 
 a {
@@ -35,6 +36,7 @@ a {
     line-height: 70px;
     color: white;
     margin-left: 25px;
+    text-shadow: 0 0 10px #4cff5b, 0 0 20px #4cff5b, 0 0 50px #4cff5b, 0 0 100px #4cff5b, 0 0 200px #4cff5b;
 }
 
 #ABOUT {
@@ -44,6 +46,7 @@ a {
     line-height: 70px;
     color: white;
     margin-left: 25px;
+    text-shadow: 0 0 10px #4cff5b, 0 0 20px #4cff5b, 0 0 50px #4cff5b, 0 0 100px #4cff5b, 0 0 200px #4cff5b;
 }
 
 #ALL {
@@ -53,4 +56,15 @@ a {
     line-height: 70px;
     color: white;
     margin-left: 25px;
+    text-shadow: 0 0 10px #4cff5b, 0 0 20px #4cff5b, 0 0 50px #4cff5b, 0 0 100px #4cff5b, 0 0 200px #4cff5b;
+}
+
+#X {
+    float: right;
+    height: 75px;
+    font-size: 25px;
+    line-height: 70px;
+    color: white;
+    margin-left: 25px;
+    text-shadow: 0 0 10px #4cff5b, 0 0 20px #4cff5b, 0 0 50px #4cff5b, 0 0 100px #4cff5b, 0 0 200px #4cff5b;
 }

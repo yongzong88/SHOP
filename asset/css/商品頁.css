@@ -6,11 +6,19 @@
     background-size: 100%;
 }
 
+* {
+    color: white;
+}
+
+#PP {
+    width: 900px;
+}
+
 #ppd {
     width: 350px;
     border: solid white 3px;
     border-radius: 10px;
-    position: absolute;
+    position: relative;
     top: 150px;
     left: 150px;
 }
@@ -18,22 +26,209 @@
 #pp {
     width: 90%;
     margin: auto;
+    position: relative;
+    left: 13px;
+}
+
+#pp:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease 0s;
 }
 
 #pt {
     color: white;
-    position: absolute;
-    top: 150px;
-    left: 600px;
+    position: relative;
+    top: -160px;
+    left: 550px;
+    width: 500px;
+}
+
+#pt h1 {
+    position: relative;
+    top: -140px;
+    font-size: 150px;
+    font-family: STFangsong;
+    width: 500px;
+}
+
+#money {
+    position: relative;
+    top: -520px;
+    left: 740px;
+    width: 500px;
+    height: 100px;
+}
+
+#money p {
+    font-size: 70px;
+    letter-spacing: 7px;
+    font-family: DejaVu Sans Mono, monospace;
+    color: white;
+    text-shadow: 0 0 10px #4cff5b, 0 0 20px #4cff5b;
+}
+
+#line {
+    background-color: white;
+    width: 550px;
+    height: 3px;
+    position: relative;
+    top: -500px;
+    left: 570px;
+}
+
+#content p {
+    position: relative;
+    top: -500px;
+    left: 570px;
+    width: 550px;
+    height: 100px;
+    font-size: 22px;
+    line-height: 35px;
+    letter-spacing: 2px;
 }
 
 #quantity {
     color: white;
-    position: absolute;
-    top: 500px;
-    left: 200px;
+    position: relative;
+    top: -480px;
+    left: 170px;
+    font-size: 47px;
+    width: 500px;
+}
+
+#number {
+    position: relative;
+    top: 1px;
+    color: rgb(51, 133, 62);
+    font-size: 45px;
+    text-align: center;
 }
 
 #fp {
+    position: relative;
+    left: 50px;
+    top: 13px;
+    width: 80px;
+}
+
+#star {
+    position: relative;
+    left: 140px;
+    top: -400px;
+    width: 1000px;
+    height: 700px;
+}
+
+.stari {
+    width: 1000px;
+    height: 200px;
+    border: 3px solid white;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.starp {
+    width: 180px;
+    margin: 10px;
+    float: left;
+}
+
+.start {
+    float: left;
+    width: 600px;
+    height: 100px;
+    color: white;
+    margin-top: 20px;
+}
+
+.stard {
+    float: right;
+    color: white;
+    margin-right: 10px;
+}
+
+.stars {
+    float: left;
+    margin-top: -10px;
+    margin-left: 500px;
+}
+
+.s {
+    width: 50px;
+}
+
+#write {
+    width: 1000px;
+    height: 500px;
+    border-radius: 10px;
+    border: 3px white solid;
+    position: relative;
+    left: 140px;
+    top: -380px;
+}
+
+.writei {
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    width: 800px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.writes {
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    display: inline-block;
     width: 30px;
+    height: 30px;
+    background-image: url("../img/star.png");
+    background-size: 100%;
+}
+
+.writes:checked {
+    background-image: url("../img/star2.png");
+    background-size: 100%;
+}
+
+#ws {
+    width: 250px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.sub {
+    width: 110px;
+    height: 50px;
+    border-radius: 10px;
+    border: 3px solid white;
+}
+
+#money1 {
+    position: relative;
+    top: -520px;
+    left: 890px;
+    width: 400px;
+    height: 100px;
+}
+
+#money1 p {
+    font-size: 70px;
+    letter-spacing: 7px;
+    font-family: DejaVu Sans Mono, monospace;
+    color: white;
+    text-shadow: 0 0 10px #4cff5b, 0 0 20px #4cff5b;
+}
+
+#stock {
+    color: white;
+    font-size: 47px;
+    width: 200px;
+    height: 50px;
+    position: relative;
+    top: -540px;
+    left: 750px;
 }

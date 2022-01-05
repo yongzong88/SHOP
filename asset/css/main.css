@@ -24,15 +24,37 @@ body {
     display: none;
 }
 
+
+/*改{*/
+
 #INSIGN {
     width: 600px;
     height: 368px;
-    background-image: url(../img/登入.png);
     background-size: 100%;
-    margin: auto;
-    position: absolute;
+    position: fixed;
     top: 120px;
-    left: 350px;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+#ia {
+    width: 100%;
+}
+
+#ib {
+    width: 100%;
+    /* display: none;*/
+}
+
+
+/*}改*/
+
+#INSIGN h1 {
+    font-size: 40px;
+    color: white;
+    text-shadow: 0 0 10px #4cff5b, 0 0 20px #4cff5b, 0 0 50px #4cff5b, 0 0 100px #4cff5b, 0 0 200px #4cff5b;
+    letter-spacing: 10px;
 }
 
 #froma {
@@ -45,20 +67,23 @@ body {
 }
 
 .ftext {
-    font-size: 15px;
-    font-family: 標楷體;
+    font-size: 30px;
+    font-family: 微軟正字體;
 }
 
 .ini {
     background-color: transparent;
     width: 300px;
-    height: 18px;
+    height: 30px;
     border: greenyellow 2px double;
     color: greenyellow;
     font-size: 15px;
 }
 
-.inb {
+
+/*改{*/
+
+#inb1 {
     width: 360px;
     height: 38px;
     margin-left: 120px;
@@ -66,6 +91,18 @@ body {
     position: absolute;
     top: 230px;
 }
+
+#inb2 {
+    width: 360px;
+    height: 38px;
+    margin-left: 120px;
+    margin-right: 120px;
+    position: absolute;
+    top: 300px;
+}
+
+
+/*}改*/
 
 .inbb {
     background-color: greenyellow;
@@ -85,5 +122,15 @@ body {
     top: 45px;
     color: greenyellow;
     text-align: center;
-    display: none;
+    /*  display: none;*/
+}
+
+#N {
+    width: 1300px;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    margin: auto;
+    left: 0;
+    right: 0;
 }

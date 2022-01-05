@@ -1,73 +1,253 @@
 #main {
     width: 1300px;
-    height: 2200px;
+    height: 2400px;
     margin: auto;
     background-image: url(../img/背景.jpg);
     background-size: 100%;
 }
-
+*{
+    color: white;
+}
 #people {
     width: 280px;
     /*margin: 100px 510px 0px 510px;*/
-    position: absolute;
-    top: 175px;
+    position: relative;
+    top: 155px;
     margin-left: 510px;
+    z-index: 99;
+}
+
+#hot {
+    font-family: DejaVu Sans Mono, monospace;
+    font-size: 50px;
+    letter-spacing: 10px;
 }
 
 #hotp {
-    width: 1300px;
-    position: absolute;
-    top: 900px;
+    width: 1000px;
+    position: relative;
+    top: 400px;
+    left: 150px;
 }
 
 #no1t {
-    position: absolute;
-    top: 830px;
-    left: 645px;
+    position: relative;
+    top: -330px;
+    left: 570px;
     color: white;
-    font-family: DejaVu Sans Mono, monospace;
+    width: 200px;
+    text-shadow: 0 0 10px #4cff5b, 0 0 20px #4cff5b, 0 0 50px #4cff5b, 0 0 100px #4cff5b, 0 0 200px #4cff5b;
+    animation: flashing 1s linear infinite alternate;
 }
 
 #no2t {
-    position: absolute;
-    top: 1050px;
-    left: 255px;
+    position: relative;
+    top: -340px;
+    left: 270px;
     color: white;
+    width: 200px;
+    text-shadow: 0 0 10px #4cff5b, 0 0 20px #4cff5b, 0 0 50px #4cff5b, 0 0 100px #4cff5b, 0 0 200px #4cff5b;
+    animation: flashing 1s linear infinite alternate;
 }
 
 #no3t {
-    position: absolute;
-    top: 1050px;
-    left: 1035px;
+    position: relative;
+    top: -520px;
+    left: 870px;
     color: white;
-}
-
-.nop {
-    width: 350px;
+    width: 200px;
+    text-shadow: 0 0 10px #4cff5b, 0 0 20px #4cff5b, 0 0 50px #4cff5b, 0 0 100px #4cff5b, 0 0 200px #4cff5b;
+    animation: flashing 1s linear infinite alternate;
 }
 
 #no1p {
-    position: absolute;
-    top: 950px;
-    left: 490px;
+    position: relative;
+    top: -725px;
+    left: 530px;
+    width: 250px;
+    animation: flow_no1 2.2s linear infinite alternate;
 }
 
 #no2p {
-    position: absolute;
-    top: 1180px;
-    left: 100px;
+    position: relative;
+    top: -780px;
+    left: 250px;
+    width: 220px;
+    animation: flow_no2 2s linear infinite alternate;
 }
 
 #no3p {
+    position: relative;
+    top: -1050px;
+    left: 820px;
+    width: 280px;
+    animation: flow_no3 1.8s linear infinite alternate;
+
+}
+
+#no1pt{
     position: absolute;
-    top: 1180px;
-    left: 890px;
+    left: 28%;top: 1500px;
+    color: white;
+    font-size: 45px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    padding: 10px;padding-left: 30px;
+    width: 680px;
+    text-shadow: 0 0 10px #4cff5b, 0 0 20px #4cff5b, 0 0 50px #4cff5b;
+
+    
+}
+#no2pt{
+    position: absolute;
+    left: 28%;top: 1500px;
+    color: white;
+    font-size: 45px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    padding: 10px;padding-left: 30px;
+    width: 680px;
+    text-shadow: 0 0 10px #4cff5b, 0 0 20px #4cff5b, 0 0 50px #4cff5b;
+}
+#no3pt{
+    position: absolute;
+    left: 25%;top: 1500px;
+    color: white;
+    font-size: 45px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    padding: 10px;padding-left: 30px;
+    width: 900px;
+    text-shadow: 0 0 10px #4cff5b, 0 0 20px #4cff5b, 0 0 50px #4cff5b;
+
+}
+.zero{
+    width: 1000px;height: 250px;
+    position: relative;
+    top: -1000px;left: 100px;
 }
 
 #Carousel {
-    position: absolute;
-    top: 1700px;
-    left: 250px;
+    position: relative;
+    top: -1000px;left: 250px;
     border: white solid 3px;
     border-radius: 10px;
+    width: 800px;
+}
+
+#no1pt{
+    display: none;
+    filter: drop-shadow( 
+        0 0 20px #4cff5b);
+}
+
+#no2pt{
+    display: none;
+    filter: drop-shadow( 
+        0 0 20px #4cff5b);
+}
+
+#no3pt{
+    display: none;
+    filter: drop-shadow( 
+        0 0 20px #4cff5b);
+}
+
+#top{
+    position: absolute;
+    top: 100px;left: 100px;
+    width: 1250px;height: 690px;
+}
+#topt1{
+    position: absolute;
+    top: 55px;left: 100px;
+    color: white;
+    font-size: 2em;
+    width: 12em;
+    border-right: .05em solid;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 5s steps(10) infinite,
+    caret 0.5s steps(1)  infinite;
+    z-index: 5;
+    text-shadow: 0 0 10px #4cff5b;
+
+}
+#topb1{
+    position: absolute;
+    top: 50px;left: 60px;
+    width: 400px;height: 120px;
+    border-style: solid;
+    border-color: rgb(136, 255, 0);
+    border-radius: 10px;
+    border-width: 3px;
+    animation: clippath 3s linear infinite;
+    z-index: 4;
+}
+#topbg1{
+    position: absolute;
+    top: 50px;left: 60px;
+    border-radius: 10px;
+    width: 401px;height: 121px;
+    background-color: rgba(180, 255, 82, 0.2);
+    animation: flashing 1s infinite alternate;
+}
+.top2{
+    position: relative;
+    top: 50px;left: 40px;
+    width: 250px;
+    opacity: 0.7;
+    animation: flashing 1s infinite linear alternate;
+}
+
+.top3-1{
+    position: relative;
+    top: 350px;left: 600px;
+    opacity: 0.5;
+    animation: rotate 2s infinite ;
+}
+.top3-2{
+    position: relative;
+    top: 350px;left: 268px;
+    opacity: 0.5;
+    animation: rotate_re 2s infinite ;
+}
+/*開場動畫*/
+#open{
+    background-color: black;
+    position: absolute;
+    top: 0px;left: 0px;
+    width: 100%; height: 100%;
+    z-index: -99;
+    animation: open 12s ;
+}
+#slogan p{
+    position: absolute;
+    top: 200px;left: 200px;
+    color: white;
+    text-shadow: 0 0 10px #4cff5b, 0 0 20px #4cff5b, 0 0 50px #4cff5b;
+    font-size: 50px;
+    width: 23em;
+    border-right: .05em solid;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 5s steps(22),
+    caret 1s steps(1) infinite;
+}
+#slogan h1{
+    position: absolute;
+    top: 450px;left: 500px;
+    color: white;
+    text-shadow: 0 0 10px #4cff5b, 0 0 20px #4cff5b, 0 0 50px #4cff5b;
+    font-size: 60px;
+    letter-spacing: 10px;
+    width: 7em;
+    border-right: .05em solid;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 5s steps(7),
+    caret 1s steps(1) infinite;
 }

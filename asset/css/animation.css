@@ -1,0 +1,53 @@
+@keyframes flow_no1{
+    0%{top: -735px;}
+    100%{top: -695px;}
+}
+@keyframes flow_no2{
+    0%{top: -800px;}
+    100%{top: -760px;}
+}
+@keyframes flow_no3{
+    0%{top: -1030px;}
+    100%{top: -1080px;}
+}
+@keyframes flashing{
+    from{filter: brightness(0.7);}
+    to{filter: brightness(1.2);}
+}
+@keyframes rotate{
+    form{ transform: rotate(0deg);}
+    to {transform: rotate(360deg); }
+}
+@keyframes rotate_re{
+    form{ transform: rotate(-0deg);}
+    to {transform: rotate(-360deg); }
+}
+@keyframes typing {
+    from { width: 0 }
+  }
+@keyframes caret {
+    50% { border-color: transparent; }
+  }
+  
+@keyframes clippath {
+    0%,
+    100% {
+        clip-path: inset(0 0 95% 0);
+    }
+    25% {
+        clip-path: inset(0 95% 0 0);
+    }
+    50% {
+        clip-path: inset(95% 0 0 0);
+    }
+    75% {
+        clip-path: inset(0 0 0 95%);
+    }
+}
+@keyframes open{
+    0%{opacity: 1;
+        z-index: 120;}
+    50%{opacity: 1;
+        z-index: 120;}
+    100%{opacity: 0;}
+}
