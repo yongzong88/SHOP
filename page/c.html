@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>心</title>
+    <style>
+        @import url(../asset/css/main.css);
+        @import url(../asset/css/商品頁.css);
+        @import url(../asset/css/nav.css);
+        @import url(../asset/css/animation.css);
+    </style>
+    <script src="https://unpkg.com/vue/dist/vue.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--改{-->
+    <div id="main">
+        <div>
+            <div id="ppd"><img src="../asset/img/心.png" id="pp"></div>
+            <div id="pt">
+                <h1>心</h1>
+            </div>
+            <div id="money">
+                <p>$1000000</p>
+            </div>
+            <div id="line">
+            </div>
+            <div id="content">
+                <p>隨著年紀越來越大，去到夜店有一種心不從力的感覺？還是800公尺跑到心臟痛痛？參考最新馬力5000w的保時捷心臟，讓你徹也狂歡、心臟撲通撲通地狂跳！</p>
+            </div>
+            <div id="quantity">
+                <form action="#" method="post" id="qq">
+                    數量：&nbsp;&nbsp;<input type="number" min="0" max="10" name="數量" id="number">
+                    <input type="image" src="../asset/img/下單.png" onclick="submit()" id="fp">
+                </form>
+            </div>
+            <div id="stock">庫存:100</div>
+        </div>
+        <div id="star">
+            <div class="stari">
+                <img src="../asset/img/user.png" class="starp">
+                <h1 class="start">我死了我又活了</h1>
+                <p class="stard">12/31/2021 </p>
+                <div class="stars">
+                    <img src="../asset/img/star.png" class="s">
+                    <img src="../asset/img/star.png" class="s">
+                    <img src="../asset/img/star.png" class="s">
+                    <img src="../asset/img/star.png" class="s">
+                    <img src="../asset/img/star.png" class="s">
+                </div>
+            </div>
+            <div class="stari">
+                <img src="../asset/img/user.png" class="starp">
+                <h1 class="start">還可以</h1>
+                <p class="stard">12/31/2021 </p>
+                <div class="stars">
+                    <img src="../asset/img/star.png" class="s">
+                    <img src="../asset/img/star.png" class="s">
+                    <img src="../asset/img/star.png" class="s">
+                </div>
+            </div>
+            <div class="stari">
+                <img src="../asset/img/user.png" class="starp">
+                <h1 class="start">讚</h1>
+                <p class="stard">12/31/2021 </p>
+                <div class="stars">
+                    <img src="../asset/img/star.png" class="s">
+                    <img src="../asset/img/star.png" class="s">
+                    <img src="../asset/img/star.png" class="s">
+                    <img src="../asset/img/star.png" class="s">
+                    <img src="../asset/img/star.png" class="s">
+                </div>
+            </div>
+        </div>
+        <div id="write">
+            <form action="#" method="post" id="writef" name="評分">
+                <input type="textarea" name="name" placeholder="寫下您的評論吧!" class="writei">
+                <div id="ws">
+                    <input type="radio" name="writes" class="writes" id="ws1" onclick="ws1()">
+                    <input type="radio" name="writes" class="writes" id="ws2" onclick="ws2()">
+                    <input type="radio" name="writes" class="writes" id="ws3" onclick="ws3()">
+                    <input type="radio" name="writes" class="writes" id="ws4" onclick="ws4()">
+                    <input type="radio" name="writes" class="writes" id="ws5" onclick="ws5()">
+                    <input type="submit" class="sub" placeholder="送出">
+                </div>
+            </form>
+        </div>
+        <iframe src="../page/nav.html" id="N" frameborder="0" scrolling="no"></iframe>
+    </div>
+
+    <!--}改-->
+</body>
+<script src="../asset/js/nav.js"></script>
+<script src="../asset/js/writestar.js"></script>
+
+</html>

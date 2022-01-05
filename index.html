@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <style>
+        @import url(asset/css/main.css);
+        @import url(asset/css/index.css);
+        @import url(asset/css/nav.css);
+        @import url(asset/css/animation.css);
+    </style>
+</head>
+
+<body>
+    <!--改{-->
+    <div id="main">
+
+        <div id="open">
+            <div id="slogan">
+                <p>歡迎光臨「良心器業」我們將會帶給您嶄新的人生</p>
+                <h1>準備好了嗎？</h1>
+            </div>
+        </div>
+        <img src="asset/img/人體圖.png" usemap="#image-map" id="people">
+        <div id="top">
+            <div id="topbg1"></div>
+            <div id="topb1"></div>
+            <p id="topt1">請點選您所需要的器官</p>
+            <img src="asset/img/裝飾3.png" class="top2">
+            <img src="asset/img/裝飾4-1.png" class="top3-1">
+            <img src="asset/img/裝飾4-2.png" class="top3-2">
+
+        </div>
+
+        <div id="hot">
+            <img src="asset/img/熱門排行框.png" id="hotp">
+            <h1 id="no1t">NO1</h1>
+            <h1 id="no2t">NO2</h1>
+            <h1 id="no3t">NO3</h1>
+            <div>
+                <a href="page/g.html"><img src="asset/img/肝.png" onmouseover="see1()" onmouseout="nosee1()" id="no1p" class="nop11"></a>
+                <p id="no1pt">程式要起飛，人生不會黑！</p>
+            </div>
+            <div>
+                <a href="page/n.html"><img src="asset/img/腦.png" onmouseover="see2()" onmouseout="nosee2()" id="no2p" class="nop22"></a>
+                <p id="no2pt">智障隨處有，救救你和我！</p>
+            </div>
+            <div>
+                <a href="page/eye.html"><img src="asset/img/眼.png" onmouseover="see3()" onmouseout="nosee3()" id="no3p" class="nop33"></a>
+                <p id="no3pt">電眼靓仔當起來，明年魚池像大海！</p>
+            </div>
+        </div>
+        <div class="zero"></div>
+        <div id="Carousel">
+            <img src="asset/img/1466144.jpg" id="Carouselp" alt="" width="800" height="450">
+        </div>
+        <map name="image-map">
+            <area target="_parent" alt="腦" title="腦" href="page/n.html" coords="109,33,113,25,118,19,126,15,138,12,148,13,158,19,165,25,172,35,168,46,160,54,153,64,153,72,146,72,142,61,136,53,130,50,120,39" shape="poly">
+            <area target="_parent" alt="眼" title="眼" href="page/eye.html" coords="108,35,99,39,94,45,90,51,94,61,104,67,112,69,122,65,125,59,131,60,136,55,123,43,115,36" shape="poly">
+            <area target="_parent" alt="肺" title="肺" href="page/f.html" coords="137,146,137,179,128,187,123,159,98,172,84,199,75,249,76,274,127,261,128,200,138,189,143,187,152,197,166,196,179,201,182,212,192,223,193,245,186,252,167,257,158,254,158,263,183,271,209,275,208,245,200,207,181,175,163,162,156,169,155,181,154,189,144,178,143,145" shape="poly">
+            <area target="_parent" alt="心" title="心" href="page/c.html" coords="141,188,140,198,133,211,136,220,143,219,139,229,151,248,160,253,179,253,192,244,192,227,188,217,180,208,176,198,165,194,153,197" shape="poly">
+            <area target="_parent" alt="肝" title="肝" href="page/g.html" coords="126,255,137,257,153,257,165,269,149,283,120,293,101,313,80,317,75,285,79,275,105,267,120,263" shape="poly">
+            <area target="_parent" alt="胃" title="胃" href="page/w.html" coords="166,267,207,276,201,303,182,317,154,316,149,311,168,306,176,295,176,288,156,296,134,298,121,298,115,296,125,290,151,288,159,284,161,274" shape="poly">
+            <area target="_parent" alt="胰臟" title="胰臟" href="page/e.html" coords="115,299,146,298,174,290,176,295,171,307,153,309,143,310,134,321,120,326,107,321,106,311" shape="poly">
+            <area target="_parent" alt="腸" title="腸" href="page/h.html" coords="89,320,110,325,131,329,158,323,166,318,194,311,195,336,198,378,198,408,176,423,154,425,149,451,139,463,134,433,132,411,135,404,118,401,115,406,109,417,94,419,85,405,82,379,84,345,82,327" shape="poly">
+        </map>
+        <iframe src="page/nav.html" id="N" frameborder="0" scrolling="no"></iframe>
+    </div>
+
+    <!--}改-->
+</body>
+<script src="asset/js/nav.js"></script>
+<script>
+    var mypic = new Array("asset/img/1466144.jpg", "asset/img/1466588.jpg"); //定義陣列來存放圖片地址
+    var thispic = 0;
+
+    var go = setInterval(function() {
+        document.getElementById('Carouselp').src = mypic[thispic];
+        if (thispic == 1) {
+            thispic = 0;
+        } else {
+            thispic++;
+        }
+    }, 3000);
+
+    function see1() {
+        document.getElementById("no1pt").style.display = "block";
+    }
+
+    function see2() {
+        document.getElementById("no2pt").style.display = "block";
+    }
+
+    function see3() {
+        document.getElementById("no3pt").style.display = "block";
+    }
+
+    function nosee1() {
+        document.getElementById("no1pt").style.display = "none";
+    }
+
+    function nosee2() {
+        document.getElementById("no2pt").style.display = "none";
+    }
+
+    function nosee3() {
+        document.getElementById("no3pt").style.display = "none";
+    }
+</script>
+
+</html>
