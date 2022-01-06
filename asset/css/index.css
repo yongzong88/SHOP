@@ -166,7 +166,8 @@
 #top {
     position: absolute;
     top: 100px;
-    left: 100px;
+    left: 50%;
+    margin-left: -625px;
     width: 1250px;
     height: 690px;
 }
@@ -241,13 +242,12 @@
 
 #open {
     background-color: black;
-    position: fixed;
+    position: absolute;
     top: 0px;
-    marging:auto;
-    left: 0px;
-    right:0;
-    width: 100%;
-    height: 100%;
+    left: 50%;
+    margin-left: -650px;
+    width: 1300px;
+    height: 800px;
     z-index: -99;
     animation: open 12s;
 }
