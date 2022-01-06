@@ -241,9 +241,11 @@
 
 #open {
     background-color: black;
-    position: absolute;
+    position: fixed;
     top: 0px;
+    marging:auto;
     left: 0px;
+    right:0;
     width: 100%;
     height: 100%;
     z-index: -99;
